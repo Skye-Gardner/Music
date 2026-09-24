@@ -7,35 +7,42 @@
   </head> 
   <body> 
     <h1>My Music Page</h1> <! --- header for the page --->
-    <p>This page is about one of the artist and her music i like</p>
+    <p id="big" class="neongreen">This page is about one of the artist and her music i like</p>
     <! --- p mainly means paragraph or print --->
     <h3>Fem&m</h3>
     <img src="./Image/Fem&m.png" alt="A digitally drawn image of the charater Fem&m uses on her albums throughout the singles and albums" width="25%" />
     <! --- image of the artist (the digital one that on the covers) --->
     
-    <p>Favorite Songs</p>
-    <ul> <! --- bullet points --->
-      <li>It's A Vibe</li>
-      <li>Are We Dreaming</li>
-      <li>Pinata Break</li>
-    </ul>
+    <div id="song_album_wrapper">
+      <section id="songs">
+      <p id="bold" class="blurple">Favorite Songs</p>
+      <ul> <! --- bullet points --->
+        <li>It's A Vibe</li>
+        <li>Are We Dreaming</li>
+        <li>Pinata Break</li>
+      </ul>
+      </section>
+    
+    <section id="albums">
+      <p id="bold" class="blurple">Favorite Albums</p>
 
-    <p>Favorite Albums</p>
-
-    <ol> <! --- numbers --->
-      <li>ADDHERALL</li>
-      <li>Mentally sILLY</li>
-    </ol>
+      <ol> <! --- numbers --->
+        <li>ADDHERALL</li>
+        <li>Mentally sILLY</li>
+      </ol>
+      </section>
+    </div>
 
     <p>Learn more about <a href="https://femnm.framer.website/#nav">Fem&m</a> here</p>
 
 
 
-
-    <h4>See my other favorite artists</h4>
-    <ul>
-      <li><a href="YonKaGor.html">YonKaGor</a></li>
-      <li><a href="Artifyber.html">Artifyber</a></li>
-    </ul>
+    <nav id="footer"></nav>
+      <h4>See my other favorite artists</h4>
+      <ul>
+        <li><a href="YonKaGor.html">YonKaGor</a></li>
+        <li><a href="Artifyber.html">Artifyber</a></li>
+      </ul>
+    </nav>
   </body> 
 </html>
