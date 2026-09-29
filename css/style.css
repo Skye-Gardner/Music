@@ -1,11 +1,8 @@
-header {
-    
-    
-}
+
 
 h3 {
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 body {
@@ -66,4 +63,22 @@ img {
 
 #songs, #albums {
   flex: 1;
+}
+
+@media (max-width: 700px) {
+    body {
+    font-size: 16px;
+  }
+
+  .flex-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .flex-container > div {
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+  }
 }
