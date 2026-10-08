@@ -49,37 +49,10 @@ img {
     font-weight: bold;
 }
 
-#footer ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-}
 
-#song_album_wrapper {
-  display: flex;
-  gap: 20px;
-}
-
-#songs, #albums {
-  flex: 1;
-}
-
-@media (max-width: 700px) {
-    body {
-    font-size: 16px;
-  }
-
-  .flex-container {
-    display: flex;
-    flex-wrap: wrap;
-  }
-
-  .flex-container > div {
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-  }
+.my-custom-heading {
+  font-family: 'System-ui', sans-serif;
+  font-weight: bold;
+  Color: #01e8fd;
+  
 }
